@@ -33,7 +33,8 @@ def main():
             brand TEXT,
             name TEXT,
             description TEXT,
-            review_url TEXT
+            review_url TEXT,
+            hasReview INTEGER DEFAULT 0
         )
     ''')
     conn.commit()
